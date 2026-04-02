@@ -103,11 +103,3 @@ footer{
     padding:20px;
     background:#020617;
 }
-// Dynamic year
-document.getElementById("year").textContent = new Date().getFullYear();
-
-// Contact form
-document.getElementById("contactForm").addEventListener("submit", function(e){
-    e.preventDefault();
-    alert("Message sent successfully!");
-});
