@@ -1,54 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Bhumika Sanga Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhumika Sanga | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
 <header>
     <h1>Bhumika Sanga</h1>
-    <p>B.Tech IT Student</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
+<section class="hero">
+    <h2>Hi, I'm Bhumika 👋</h2>
+    <p>Web Developer | B.Tech IT Student</p>
+</section>
 
 <section id="about">
     <h2>About Me</h2>
-    <p>I am a motivated B.Tech Information Technology student with a strong foundation in computer science. I enjoy building websites and learning new technologies.</p>
+    <p>
+        Motivated B.Tech IT student with strong foundation in programming and web development.
+        Passionate about building real-world applications and learning new technologies.
+    </p>
 </section>
 
 <section id="skills">
     <h2>Skills</h2>
-    <ul>
-        <li>C, C++, Java, Python</li>
-        <li>HTML, CSS, JavaScript, PHP</li>
-        <li>MySQL</li>
-        <li>VS Code, XAMPP</li>
-    </ul>
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>PHP</span>
+        <span>MySQL</span>
+        <span>Python</span>
+    </div>
 </section>
 
 <section id="projects">
     <h2>Projects</h2>
-    <p><strong>Paint Shop Website</strong></p>
-    <p>Developed a responsive website using HTML, CSS, JS, PHP, and MySQL.</p>
+
+    <div class="card">
+        <h3>Paint Shop Website</h3>
+        <p>Built using HTML, CSS, JS, PHP & MySQL with product management system.</p>
+    </div>
+
+    <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>Modern responsive portfolio with animations.</p>
+    </div>
+
+    <div class="card">
+        <h3>Recipe Maker App</h3>
+        <p>Dynamic recipe generator using API with search functionality.</p>
+    </div>
+
 </section>
 
 <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: bhumisanga2@gmail.com</p>
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div class="social">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+    </div>
+
 </section>
 
 <footer>
-    <p id="year"></p>
+    <p>© <span id="year"></span> Bhumika Sanga</p>
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
