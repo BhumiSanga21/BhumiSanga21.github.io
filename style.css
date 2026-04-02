@@ -40,3 +40,51 @@ footer {
     background: #333;
     color: white;
 }
+body {
+    font-family: Arial, sans-serif;
+    background: #0f2027;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #00c6ff;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: #00c6ff;
+}
+
+h2 {
+    color: #00c6ff;
+    border-bottom: 1px solid gray;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+a {
+    color: #00c6ff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
